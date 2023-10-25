@@ -1,0 +1,26 @@
+
+ArrayList<int[][]> AList = new ArrayList<>();
+        ArrayList<int[][]> BList = new ArrayList<>();
+
+for (int i = 0; i < N; i++) {
+            int[][] matrix1 = {{R(),R()},{R(),R()}};
+            AList.add(matrix1);
+            int[][] matrix2 = {{R(),R()},{R(),R()}};
+            BList.add(matrix2);
+        }
+
+
+                Matrix m1 = new Matrix();
+                Matrix m2 = new Matrix();
+                Matrix m3 = new Matrix();
+                Matrix m4 = new Matrix();
+
+                m1.printMatrix();
+                m2.printMatrix();
+                m3.printMatrix();
+                m4.printMatrix();
+
+                m1.start();
+                m2.start();
+                m3.start();
+                m4.start();
